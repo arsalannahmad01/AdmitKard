@@ -11,7 +11,7 @@ const sendOtp = async (req, res) => {
     }
 
     const otp = generateRandomNumber(4);
-    // sendOtpViaFast2SMS(phoneNumber, otp);
+    sendOtpViaFast2SMS(phoneNumber, otp);
 
     await User.updateOne({ phoneNumber }, { otp }, { upsert: true });
     

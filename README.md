@@ -36,5 +36,5 @@
 
 Please make sure you have Node.js and NPM (Node Package Manager) installed on your system.
 
-![Client Setup](https://drive.google.com/file/d/1HnIrPx1zG340UrJfsqQCuR4QtEA7JJBz/view)
+![Client Setup](./Images/Image1.png)
 ![Server Setup](insert_image_url_for_server_setup)
