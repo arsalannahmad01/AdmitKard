@@ -40,11 +40,15 @@ const SignIn = () => {
           specialLabel={'Enter Phone Number'}
           inputStyle={{
             borderColor: "#FFD37D",
+            width:"343px",
+            height:"44px",
+            border: "1px solid #ffd37d"
           }}
 
-          containerStyle={{
-            specialLabel:{left:"45px"}
-          }}
+          // containerStyle={{
+          //   width:'343px',
+          //   height:'44px',
+          // }}
 
           onChange={phone => setPhoneNumber(phone)}
 

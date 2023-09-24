@@ -41,19 +41,8 @@
 }
 
 .flag-dropdown {
-  left: 35px;
+  left: 15px;
 }
-
-.form-control {
-  border: 1px solid #ffd37d;
-  width: 343px;
-  height: 44px;
-}
-
-/* .react-tel-input .special-label {
-  left: 50px;
-  font-size: 5px;
-} */
 
 .sms-msg {
   width: 343px;

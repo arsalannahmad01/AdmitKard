@@ -19,19 +19,23 @@ const sendOtp = async (req, res) => {
 }
 
 const verifyOtp = async(req, res) => {
-    const {phoneNumber, otp} = req.body;
-    const tempUser = await User.findOne({phoneNumber:phoneNumber});
 
-    if(otp != tempUser?.otp){
-        // throw new CustomAPIError.BadRequestError("Invalid OTP")
-        res.send("Invalid OTP")
+    const {phoneNumber, otp} = req.body
+    const user = await User.findOne({phoneNumber})
+
+    if(!user) {
+        throw new CustomAPIError.BadRequestError('Resend OTP')        
+    }
+    
+    if(otp != user?.otp){
+        throw new CustomAPIError.BadRequestError('Invalid OTP')
     }
 
-    if(tempUser) {
+    if(user) {
         await User.findOneAndDelete({phoneNumber:phoneNumber});
+        res.status(200).json({msg:"OTP Verified"})
     }
 
-    res.json({msg:"OTP Verified"})
 }
 
 module.exports = {sendOtp, verifyOtp}

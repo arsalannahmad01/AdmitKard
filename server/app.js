@@ -5,11 +5,15 @@ const express = require('express')
 const app = express()
 const connectDb = require('./db')
 const userRouter = require('./routes/user')
+const errorHandlerMiddleware = require('./middleware/error-handler')
+
 
 app.use(cors())
 app.use(express.json())
 
 app.use('/api/v1', userRouter)
+
+app.use(errorHandlerMiddleware)
 
 const port = 8080
 const start = async() => {
