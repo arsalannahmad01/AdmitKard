@@ -36,5 +36,9 @@
 
 Please make sure you have Node.js and NPM (Node Package Manager) installed on your system.
 
-![Client Setup](./Images/Image1.png)
-![Server Setup](insert_image_url_for_server_setup)
+![Image1](./Images/Image1.png)
+![Image2](./Images/Image2.png)
+![Image3](./Images/Image3.png)
+![Image4](./Images/Image4.png)
+![Image5](./Images/Image5.png)
+![Image6](./Images/Image6.png)
