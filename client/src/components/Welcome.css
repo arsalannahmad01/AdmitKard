@@ -1,0 +1,78 @@
+.welcome {
+    width: 375px;
+    height: 812px;
+    background-color: #ffffff;
+    color: #666666;
+    margin: auto;
+}
+
+.welcome img {
+    margin-top: 95px;
+}
+
+.welcome-msg {
+    color: #333333;
+    font-size: 24px;
+    font-family: Work Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: auto;
+    margin-top: 47px;
+    width: 273px;
+    height: 28px;
+}
+
+.welcome-statement {
+    width: 318px;
+    height: 57px;
+    margin: auto;
+    margin-top: 26px;
+}
+
+.firstP {
+    padding: 0;
+    width: 100%;
+    color: #999999;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.secondP {
+    padding: 0;
+    width: 100%;
+    color: #666666;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.start-btn {
+        /* width: 81px;
+        height: 16px; */
+    font-size: 14px;
+    font-family: Work Sans;
+    font-weight: 600;
+    word-wrap: break-word;
+    color: #FFFFFF;
+    background-color: #F7B348;
+    border: none;
+    border-radius: 100px;
+    padding: 11px 30px;
+    margin: auto;
+    margin-top: 107px;
+}
+
+.end-stat {
+    width: 153px;
+    height: 14px;
+    color: #999999;
+    font-size: 12px;
+    font-family: Work Sans;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: auto;
+    margin-top: 8px;
+}

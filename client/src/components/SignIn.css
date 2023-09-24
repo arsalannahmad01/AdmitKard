@@ -1,0 +1,80 @@
+.signin {
+  width: 375px;
+  height: 812px;
+  background-color: #ffffff;
+  color: #666666;
+  margin: auto;
+}
+
+.signin-img {
+  margin: auto;
+  margin-top: 156px;
+}
+
+.signin-msg {
+  width: 174px;
+  height: 28px;
+  color: black;
+  font-size: 24px;
+  font-family: Work Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: auto;
+  margin-top: 111px;
+}
+
+.login-msg {
+  width: 237px;
+  height: 18px;
+  color: #666666;
+  font-size: 16px;
+  font-family: Work Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.phone {
+  margin: auto;
+  margin-top: 68px;
+}
+
+.flag-dropdown {
+  left: 35px;
+}
+
+.form-control {
+  border: 1px solid #ffd37d;
+  width: 343px;
+  height: 44px;
+}
+
+/* .react-tel-input .special-label {
+  left: 50px;
+  font-size: 5px;
+} */
+
+.sms-msg {
+  width: 343px;
+  height: 48px;
+  color: #999999;
+  font-size: 12px;
+  font-family: Work Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: auto;
+  margin-top: 31px;
+}
+
+.send-btn {
+    width: 224px;
+    height: 36px;
+    border: none;
+    border-radius: 50px;
+    background-color: #F7B348;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 95px;
+    cursor: pointer;
+}
